@@ -16,7 +16,7 @@ export default function App() {
           Open up App.js to start working on your app!
         </Text>
         <View style={styles.footerContainer}>
-          <Button label="Choose a photo" />
+          <Button theme="primary" label="Choose a photo" />
           <Button label="Use this photo" />
         </View>
       </View>
