@@ -12,9 +12,7 @@ export default function App() {
       <View style={styles.imageContainer}>
         <ImageViewer placeholderImageSource={PlaceholderImage} />
         
-        <Text style={{ color: "#fff" }}>
-          Open up App.js to start working on your app!
-        </Text>
+        
         <View style={styles.footerContainer}>
           <Button theme="primary" label="Choose a photo" />
           <Button label="Use this photo" />
@@ -34,6 +32,7 @@ const styles = StyleSheet.create({
   imageContainer: {
     flex: 1,
     paddingTop: 58,
+    alignItems: "center",
   },
   image: {
     width: 320,
